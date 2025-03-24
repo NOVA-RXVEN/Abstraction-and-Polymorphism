@@ -12,8 +12,8 @@ class Porsche:
     def Horse_Power(self):
         print("Horse Power: 502")
     
-    def Milage(self):
-        print("Milage: 15-20")
+    def Mileage(self):
+        print("Mileage: 15-20")
         
 class Lamorghini:
     
@@ -29,8 +29,8 @@ class Lamorghini:
     def Horse_Power(self):
         print("Horse Power: 730")
     
-    def Milage(self):
-        print("Milage: 10-16")
+    def Mileage(self):
+        print("Mileage: 10-16")
 
 class Ferrari:
     
@@ -46,8 +46,8 @@ class Ferrari:
     def Horse_Power(self):
         print("Horse Power: 950")
     
-    def Milage(self):
-        print("Milage: 12-19")        
+    def Mileage(self):
+        print("Mileage: 12-19")        
 
 class koenigsegg:
     
@@ -63,8 +63,8 @@ class koenigsegg:
     def Horse_Power(self):
         print("Horse Power: 1600")
     
-    def Milage(self):
-        print("Milage: 10-15")
+    def Mileage(self):
+        print("Mileage: 10-15")
 
 class Pagani:
     
@@ -80,8 +80,8 @@ class Pagani:
     def Horse_Power(self):
         print("Horse Power:  730 horsepower")
     
-    def Milage(self):
-        print("Milage: 14-17")
+    def Mileage(self):
+        print("Mileage: 14-17")
 
 objPorsche = Porsche()
 objLambo = Lamorghini()
@@ -95,6 +95,6 @@ for car in (objPorsche, objLambo, objFerrari, objKoenig, objPagani):
     car.Top_Speed()
     car.Price()
     car.Horse_Power()
-    car.Milage()
+    car.Mileage()
     print()
     print()
